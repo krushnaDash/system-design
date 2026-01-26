@@ -1,0 +1,128 @@
+[
+  {
+    "pdf": "exports/pdf/ADR---UR-ETL-solutions---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/ADR---UR-ETL-solutions---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "ADR   UR ETL solutions   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 7323
+  },
+  {
+    "pdf": "exports/pdf/Auth-message-Processing-Design-from-PLUTUS---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Auth-message-Processing-Design-from-PLUTUS---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Auth message Processing Design from PLUTUS   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 2430
+  },
+  {
+    "pdf": "exports/pdf/Cleanup-Projections-and-Journals---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Cleanup-Projections-and-Journals---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Cleanup Projections and Journals   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 941
+  },
+  {
+    "pdf": "exports/pdf/Data-movement---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Data-movement---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Data movement   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 375
+  },
+  {
+    "pdf": "exports/pdf/Design-solutions-to-convert-from-append-blob-to-block-blob-Objective----Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Design-solutions-to-convert-from-append-blob-to-block-blob-Objective----Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Design solutions to convert from append blob to block blob Objective    Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 9797
+  },
+  {
+    "pdf": "exports/pdf/Filter-Criteria-for-Auth-Message---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Filter-Criteria-for-Auth-Message---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Filter Criteria for Auth Message   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 512
+  },
+  {
+    "pdf": "exports/pdf/Filter-non-URS-Transaction-for-BUA---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Filter-non-URS-Transaction-for-BUA---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Filter non URS Transaction for BUA   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 2929
+  },
+  {
+    "pdf": "exports/pdf/Filter-non-URS-Transaction-for-OMS---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Filter-non-URS-Transaction-for-OMS---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Filter non URS Transaction for OMS   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 5234
+  },
+  {
+    "pdf": "exports/pdf/Mismatch-Schema---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Mismatch-Schema---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Mismatch Schema   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 2424
+  },
+  {
+    "pdf": "exports/pdf/Order_id-and-Payment_id-mismatch-with-store-txns---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Order_id-and-Payment_id-mismatch-with-store-txns---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Order_id and Payment_id mismatch with store txns   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 8745
+  },
+  {
+    "pdf": "exports/pdf/Processing-Auth-message-without-Order_id---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Processing-Auth-message-without-Order_id---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Processing Auth message without Order_id   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 2680
+  },
+  {
+    "pdf": "exports/pdf/Processing-Supplemental-Auth-Messages---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Processing-Supplemental-Auth-Messages---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Processing Supplemental Auth Messages   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 8567
+  },
+  {
+    "pdf": "exports/pdf/UR-State-Machine-Flat-Design---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-State-Machine-Flat-Design---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR State Machine Flat Design   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 5440
+  },
+  {
+    "pdf": "exports/pdf/UR-State-machine-Design---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-State-machine-Design---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR State machine Design   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 16728
+  },
+  {
+    "pdf": "exports/pdf/UR-State-machine-communication-design---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-State-machine-communication-design---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR State machine communication design   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 4662
+  },
+  {
+    "pdf": "exports/pdf/UR-StateManager-Application-Diagram---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-StateManager-Application-Diagram---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR StateManager Application Diagram   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 1309
+  },
+  {
+    "pdf": "exports/pdf/UR-StateManager-Application-Diagram--2---2----Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-StateManager-Application-Diagram--2---2----Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR StateManager Application Diagram  2   2    Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 405
+  },
+  {
+    "pdf": "exports/pdf/UR-Statemanager-Current-Plan---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-Statemanager-Current-Plan---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR Statemanager Current Plan   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 5092
+  },
+  {
+    "pdf": "exports/pdf/UR-Statemanager-redesign---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-Statemanager-redesign---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR Statemanager redesign   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 19041
+  },
+  {
+    "pdf": "exports/pdf/UR-low-level-design-and-details---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/UR-low-level-design-and-details---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "UR low level design and details   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 3926
+  },
+  {
+    "pdf": "exports/pdf/Unified-Reconciliation---C4-design-Diagram---Krushna-Chandra-Dash---Enterprise-Confluence.pdf",
+    "markdown": "exports/parsed/Unified-Reconciliation---C4-design-Diagram---Krushna-Chandra-Dash---Enterprise-Confluence.md",
+    "title": "Unified Reconciliation   C4 design Diagram   Krushna Chandra Dash   Enterprise Confluence",
+    "chars": 4059
+  }
+]

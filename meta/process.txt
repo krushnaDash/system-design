@@ -1,0 +1,28 @@
+
+This document captures the behavioral evaluation process and preparation guidance based on real interview feedback from a candidate who passed the Meta E7 behavioral round. The goal is to make it easy to prepare stories that clearly demonstrate senior IC signals.
+
+The behavioral interview is assessed across five areas: driving results, resolving conflict, embracing ambiguity, growing continuously, and communicating effectively. Strong answers are structured, concise, and grounded in data. Across all areas, the interviewer is looking for evidence that you can lead complex initiatives involving many participants, operate effectively across organizations, and deliver measurable impact.
+
+Driving results has two parts. First, you must show that you can deliver even when there are roadblocks, limited resources, unclear requirements, or partner dependencies. Second, you must show how you prove impact. Use measurable results whenever possible (experiments, dashboards, metrics moved, cost reductions, latency improvements, adoption, timelines). Make sure the result is concrete and ties back to a business or customer outcome.
+
+Resolving conflict is evaluated on scale and maturity. 
+The interview expects complex conflicts, not small disagreements. 
+Avoid approaches that signal low leverage: arguing to win, or escalating to a senior person to decide. 
+A moderate outcome is compromise, but the strongest outcome is collaboration. 
+
+Start with empathy to understand why the other party disagrees, articulate your point of view, and align on a win-win plan supported by shared facts (for example, data, experiments, pilots, or clear decision criteria).
+
+Embracing ambiguity focuses on your ability to turn unstructured or contradictory inputs into clarity and execution. 
+Good examples include unclear business goals, conflicting stakeholder priorities, unrealistic timelines, or an open problem space with no guidance. 
+In your answer, explicitly show how you drove clarity (requirements, constraints, success criteria, trade-offs) and then delivered results after creating structure.
+
+Growing continuously is evaluated through examples of learning and adaptation. 
+Prepare an example of a mistake and what you learned, and an example of receiving tough feedback and how you responded. 
+The key signal is not the mistake itself but how you changed behavior afterward and applied the learning in future situations. 
+Also be ready to demonstrate how you help others grow through mentoring, coaching, feedback, or raising the bar for the team.
+
+Communicating effectively has two dimensions. 
+The first is how you communicate in the interview: are answers structured, detailed enough, and concise enough to leave room for follow-up questions? Do you listen and respond to what is being asked? 
+The second is your real-world communication techniques: how you build relationships and alignment using one-to-ones, team meetings, written docs, reviews, and other channels.
+
+Preparation approach: develop a set of STAR+L stories that map to the five areas and cover different types of scope (technical depth, cross-functional leadership, ambiguous problem solving, conflict). For each story, practice a concise headline and then expand with details and metrics when prompted. For conflict and ambiguity stories, emphasize empathy, alignment steps, and decision frameworks. For growth stories, explicitly describe how you applied the learning later.

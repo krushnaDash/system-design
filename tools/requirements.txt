@@ -1,0 +1,4 @@
+requests>=2.31.0
+html2text>=2020.1.16
+playwright>=1.43.0
+pdfminer.six>=20221105
