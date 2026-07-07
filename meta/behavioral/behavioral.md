@@ -104,3 +104,6 @@ Examples include: driving measurable results amidst roadblocks; resolving comple
  - Draft succinct write-ups emphasizing empathy, collaboration, and measurable impact.
  - Identify artifacts: PRDs, docs, dashboards, experiment results that support claims.
 
+## refer HelloInterview
+
+https://www.hellointerview.com/learn/behavioral/overview/introduction

@@ -1,0 +1,318 @@
+<mxfile host="65bd71144e">
+    <diagram id="CKjXqvgV-m1iI2FfIp1P" name="Page-1">
+        <mxGraphModel dx="1986" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="1169" width="600" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=-0.008;entryY=0.272;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=-0.007;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="DG11VQIMFjfxq2e99lzv-39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-112" value="Rest&lt;div&gt;API for&lt;/div&gt;&lt;div&gt;history comments&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DG11VQIMFjfxq2e99lzv-111" connectable="0" vertex="1">
+                    <mxGeometry x="-0.376" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="API&lt;br&gt;Gateways&lt;br&gt;LB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="40" width="130" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Comments&lt;br&gt;Service&lt;br&gt;Write" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="50" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" parent="1" source="13" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="publish to kafka&lt;br&gt;video_id&lt;br&gt;partation key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="15" connectable="0" vertex="1">
+                    <mxGeometry x="-0.1385" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Comments&lt;br&gt;Service&lt;br&gt;Write" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="60" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="14" target="DG11VQIMFjfxq2e99lzv-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="71" width="78" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="DB&lt;br&gt;cassandra" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="60" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-25" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="48" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-26" value="video_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DG11VQIMFjfxq2e99lzv-25" vertex="1">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-27" value="user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DG11VQIMFjfxq2e99lzv-25" vertex="1">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-28" value="commetns" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DG11VQIMFjfxq2e99lzv-25" vertex="1">
+                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-30" value="bucket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DG11VQIMFjfxq2e99lzv-25" vertex="1">
+                    <mxGeometry y="120" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.021;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="17" target="DG11VQIMFjfxq2e99lzv-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-31" value="commets&lt;div&gt;consumer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-31" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-37" value="Partition 50 to 100&lt;div&gt;1 partition can easly handles more the 1K message per sec&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="698.5" y="18" width="221" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-39" value="Comments-Service&lt;br&gt;Read" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="260" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-40" value="P1, P2, P3 .......P100" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="149" width="321" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-41" target="DG11VQIMFjfxq2e99lzv-43" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="760" y="400"/>
+                            <mxPoint x="575" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-41" value="Regional-Relay&lt;div&gt;SCUS&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-42" target="DG11VQIMFjfxq2e99lzv-43" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="919" y="400"/>
+                            <mxPoint x="538" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-48" value="&lt;br&gt;&lt;div&gt;gRPC&lt;/div&gt;&lt;div&gt;bi-diectional&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;or&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Pub-sub&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DG11VQIMFjfxq2e99lzv-47" connectable="0" vertex="1">
+                    <mxGeometry x="-0.2316" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-42" value="Regional-Relay&lt;div&gt;EU-East&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="859" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-43" value="Comments-Service&lt;br&gt;Read" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="280" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.312;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-41" target="DG11VQIMFjfxq2e99lzv-40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.807;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-42" target="DG11VQIMFjfxq2e99lzv-40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-43" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-50" value="WS&lt;div&gt;push to client&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DG11VQIMFjfxq2e99lzv-49" connectable="0" vertex="1">
+                    <mxGeometry x="0.2523" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-51" value="Kafka P1, P2, P3 .......P100" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="550" width="321" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-52" value="Regional-Relay - Fan-out service&lt;div&gt;SCUS multiple POD with sam consumer Group.&lt;/div&gt;&lt;div&gt;POD 1&amp;nbsp; -&amp;gt;&amp;nbsp; P1...P30&lt;/div&gt;&lt;div&gt;POD 2&amp;nbsp; -&amp;gt;&amp;nbsp; P31...P60&lt;/div&gt;&lt;div&gt;POD 3&amp;nbsp; -&amp;gt;&amp;nbsp; P60...P100&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;The relay is the &lt;/span&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: rgb(0, 0, 128); font-weight: bold;&quot;&gt;**multiplexer**&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;it translates from Kafka's partition-based &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;routing to &lt;/span&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: rgb(128, 0, 0);&quot;&gt;`liveVideoId`&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-based &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;routing to specific edge pods&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="680" width="360" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-53" value="Regional-Relay&lt;div&gt;EU-East&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="680" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-54" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Deep dive on Kafka to Regional Relay&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="560.5" y="470" width="300" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-55" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Regional Relay&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;Read all message, Each Relay has 5 to 10 pods&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split the 100 partitions between them for parallelism&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;Regional Relay → Edge Pods (Read service)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;Route the Kafka message to the Edge pods who care about the message.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;3 solutions -&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;1-&amp;gt;All message to all Edge Pods (gRpc)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;2-&amp;gt; Group pods by Video_id (consistent hashing)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;3-&amp;gt; Pub -sub/ gRpc( Edge Pod will register them&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;for a set of video_id)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="470" width="310" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-56" value="Edge PODs / Comments Read Service&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="970" width="590" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DG11VQIMFjfxq2e99lzv-57" target="DG11VQIMFjfxq2e99lzv-52" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="506" y="920"/>
+                            <mxPoint x="600" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-57" value="POD1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="1040" width="111" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-58" target="DG11VQIMFjfxq2e99lzv-52" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="772" y="920"/>
+                            <mxPoint x="600" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-58" value="POD3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="716" y="1040" width="111" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DG11VQIMFjfxq2e99lzv-59" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="643" y="920"/>
+                            <mxPoint x="600" y="920"/>
+                        </Array>
+                        <mxPoint x="600" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-59" value="POD2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="587.5" y="1040" width="111" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-60" target="DG11VQIMFjfxq2e99lzv-52" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="896" y="920"/>
+                            <mxPoint x="600" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-60" value="POD4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="1040" width="111" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-65" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="478" y="1200" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-66" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="568" y="1200" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-67" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="658" y="1200" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-68" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="743" y="1200" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-69" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="818" y="1200" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-70" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="898" y="1200" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.405;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-52" target="DG11VQIMFjfxq2e99lzv-51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.688;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-53" target="DG11VQIMFjfxq2e99lzv-51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="950" y="660"/>
+                            <mxPoint x="771" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.512;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-72" target="DG11VQIMFjfxq2e99lzv-56" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-78" value="publish by websocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DG11VQIMFjfxq2e99lzv-77" connectable="0" vertex="1">
+                    <mxGeometry x="-0.0314" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-79" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="-208" y="900" width="622" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-80" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-79" vertex="1">
+                    <mxGeometry width="622" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-81" value="Option1&lt;div&gt;All to All&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-80" vertex="1">
+                    <mxGeometry width="160" height="60" as="geometry">
+                        <mxRectangle width="160" height="60" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-82" value="Option2&lt;div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #000080;font-weight: bold;&quot;&gt;Partition-aware routing &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #000080;font-weight: bold;&quot;&gt;(more efficient, more complex)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-80" vertex="1">
+                    <mxGeometry x="160" width="250" height="60" as="geometry">
+                        <mxRectangle width="250" height="60" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-83" value="Option3&lt;div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #000080;font-weight: bold;&quot;&gt;Redis Pub/Sub as intermediary&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-80" vertex="1">
+                    <mxGeometry x="410" width="212" height="60" as="geometry">
+                        <mxRectangle width="212" height="60" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-79" vertex="1">
+                    <mxGeometry y="60" width="622" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-85" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;grpc.&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;connect(relay1)&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;connect(relay2) &lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;connect(relay3)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-84" vertex="1">
+                    <mxGeometry width="160" height="120" as="geometry">
+                        <mxRectangle width="160" height="120" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-86" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;partitionMap: &lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;Map&amp;lt;partitionId, relayPodAddress&amp;gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;partition = hash(videoId) % 50&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt; &lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-84" vertex="1">
+                    <mxGeometry x="160" width="250" height="120" as="geometry">
+                        <mxRectangle width="250" height="120" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-87" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;onKafkaMessage(comment):&lt;/div&gt;&lt;div&gt;    redis.publish&lt;/div&gt;&lt;div&gt;(&quot;live:{comment.liveVideoId}&lt;/div&gt;&lt;div&gt;:region:us-east&quot;, comment)&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-84" vertex="1">
+                    <mxGeometry x="410" width="212" height="120" as="geometry">
+                        <mxRectangle width="212" height="120" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-88" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-79" vertex="1">
+                    <mxGeometry y="180" width="622" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-89" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;subscriptions: &lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;Map&amp;lt;liveVideoId, &lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;Set&amp;lt;edgePodStream&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;Simple and Rebalance&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;safe&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: normal;&quot;&gt;Small relay count (2–5)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-88" vertex="1">
+                    <mxGeometry width="160" height="210" as="geometry">
+                        <mxRectangle width="160" height="210" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-90" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;targetRelay = partitionMap.&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;get(partition)&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;    targetRelay.&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;send(SUBSCRIBE(videoId, &lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;edgePodId=self))&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: normal;&quot;&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;Fewer connections (only connect to the relevant relay)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: normal;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;Must track partition assignments in real time and Kafka rebalance&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-88" vertex="1">
+                    <mxGeometry x="160" width="250" height="210" as="geometry">
+                        <mxRectangle width="250" height="210" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-91" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;onNewViewer(videoId):&lt;/div&gt;&lt;div&gt;    redis.&lt;/div&gt;&lt;div&gt;subscribe(&quot;live:{videoId}&lt;/div&gt;&lt;div&gt;:region:us-east&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: normal;&quot;&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;Zero re-registration on Kafka rebalance&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;line-height: 18px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: normal;&quot;&gt;Redis becomes a hot-path dependency&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Ubuntu, &amp;quot;Droid Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: normal;&quot;&gt;n/w latency&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="DG11VQIMFjfxq2e99lzv-88" vertex="1">
+                    <mxGeometry x="410" width="212" height="210" as="geometry">
+                        <mxRectangle width="212" height="210" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DG11VQIMFjfxq2e99lzv-43" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="575" y="440"/>
+                            <mxPoint x="1100" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DG11VQIMFjfxq2e99lzv-110" value="Read service&lt;div&gt;fetch older comments&lt;/div&gt;&lt;div&gt;cursor based pagination&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DG11VQIMFjfxq2e99lzv-109" connectable="0" vertex="1">
+                    <mxGeometry x="0.6542" y="2" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;br&gt;Core entities&lt;br&gt;User&lt;br&gt;Commetns&lt;br&gt;&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="-32" width="150" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,5 +1,6 @@
 
-This document captures the behavioral evaluation process and preparation guidance based on real interview feedback from a candidate who passed the Meta E7 behavioral round. The goal is to make it easy to prepare stories that clearly demonstrate senior IC signals.
+This document captures the behavioral evaluation process and preparation guidance based on real interview feedback from a candidate who passed the Meta E7 behavioral round. 
+The goal is to make it easy to prepare stories that clearly demonstrate senior IC signals.
 
 The behavioral interview is assessed across five areas: driving results, resolving conflict, embracing ambiguity, growing continuously, and communicating effectively. Strong answers are structured, concise, and grounded in data. Across all areas, the interviewer is looking for evidence that you can lead complex initiatives involving many participants, operate effectively across organizations, and deliver measurable impact.
 
@@ -25,4 +26,6 @@ Communicating effectively has two dimensions.
 The first is how you communicate in the interview: are answers structured, detailed enough, and concise enough to leave room for follow-up questions? Do you listen and respond to what is being asked? 
 The second is your real-world communication techniques: how you build relationships and alignment using one-to-ones, team meetings, written docs, reviews, and other channels.
 
-Preparation approach: develop a set of STAR+L stories that map to the five areas and cover different types of scope (technical depth, cross-functional leadership, ambiguous problem solving, conflict). For each story, practice a concise headline and then expand with details and metrics when prompted. For conflict and ambiguity stories, emphasize empathy, alignment steps, and decision frameworks. For growth stories, explicitly describe how you applied the learning later.
+Preparation approach: develop a set of STAR+L stories that map to the five areas and cover different types of scope (technical depth, cross-functional leadership, ambiguous problem solving, conflict). 
+For each story, practice a concise headline and then expand with details and metrics when prompted. For conflict and ambiguity stories, emphasize empathy, alignment steps, and decision frameworks. 
+For growth stories, explicitly describe how you applied the learning later.
